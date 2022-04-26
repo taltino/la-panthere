@@ -12,6 +12,10 @@ a {
   font-weight: 400;
   color: #575757 !important;
 }
+* li,a {
+list-style-type: none;
+text-decoration: none;
+}
 
 body {
   margin: 0;
@@ -280,13 +284,13 @@ a:hover {
 }
 
 .col-sm-12 p {
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: 25px;
+  margin-bottom: 40px;
 }
 .col-xs-12 p {
   font-size: 20px;
 }
-.col-xs-12 span{
+.col-xs-12 span {
   font-weight: 100;
 }
 
@@ -680,6 +684,7 @@ p {
 .social {
   max-width: 400px;
   margin: auto auto auto auto;
+  margin-bottom: 30px;
 }
 
 h2 {
@@ -804,6 +809,21 @@ h4 {
 }
 .site-navigation nav li {
   padding-right: 25px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+.row {
+  font-size: 20px;
+}
+
+.col-sm-4 ul {
+  margin-bottom: 35px;
+}
+
+.col-sm-4 ul li {
+  margin-bottom: 5px;
 }
 
 @media (max-width: 1024px) {
